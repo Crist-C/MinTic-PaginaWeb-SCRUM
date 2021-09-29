@@ -1,0 +1,15 @@
+body{
+    width: 25%;
+    margin: 6em;
+    
+      }
+header{
+    color: white ;
+}
+
+fieldset{
+     color: white;
+     background: grey;    
+     border-radius: 1em; 
+          
+  } 
