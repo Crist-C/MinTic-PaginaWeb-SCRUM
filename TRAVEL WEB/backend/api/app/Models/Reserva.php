@@ -2,10 +2,14 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+
 use Illuminate\Database\Eloquent\Model;
 
 class Reserva extends Model
 {
-    use HasFactory;
+    use Notifiable;
+    public $timestamps = false;
+    protected $table = 'reservas';
+    protected $fillable = ['habitacion_id', 'fecha_inicio', 'fecha_fin', 'huespedes', 'doc_cliente'];
+    
 }
