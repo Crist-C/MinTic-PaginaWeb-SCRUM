@@ -4,7 +4,7 @@ body{
 } 
 
 fieldset{
-    background: rgb(110, 7, 7);
+    background-color: rgba(5, 15, 20,0.4);
     color: white;
     border-radius: 1em;
 }

@@ -9,7 +9,7 @@ header{
 
 fieldset{
      color: white;
-     background: grey;    
+     background-color: rgba(5, 15, 20,0.4);   
      border-radius: 1em; 
           
   } 
