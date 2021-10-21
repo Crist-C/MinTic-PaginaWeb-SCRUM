@@ -23,3 +23,5 @@ class CreateHotelesTable extends Migration
         Schema::dropIfExists('hoteles');
     }
 }
+
+
